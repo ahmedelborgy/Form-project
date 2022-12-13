@@ -1,0 +1,644 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: ' Abdoullah Ashgar EL-kharef';
+    src: url(../webfonts/Roboto-Regular.ttf)
+}
+/*---------------- my vrabiles ------------------- */
+.bg-color {
+    background-color: #F5F7FFD9;
+}
+
+.container {
+    width: 90%;
+    margin: auto;
+}
+
+/*                     /------------     welcome style       -------------/ */
+.welcome {
+
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 60px;
+    gap: 60px;
+
+    width: 1080px;
+    height: 435px;
+
+    background: rgba(245, 247, 255, 0.85);
+    border-radius: 10px;
+}
+
+.welcome_iamge {
+
+    width: 450px;
+    height: 315px;
+
+    background-image: url(../image/e6e913c64abc73e5616fdac852e235c4.jpg);
+    background-size: cover;
+    background-position: center center;
+    border-radius: 10px;
+}
+
+.welcome_caption {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 40px;
+
+    width: 450px;
+    height: 225px;
+
+
+}
+
+h1 {
+    width: 315px;
+    height: 67px;
+
+    font-family: ' Abdoullah Ashgar EL-kharef';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 56px;
+    line-height: 120%;
+     display: flex;
+    align-items: center;
+    text-transform: capitalize;
+  color: #2D2D2D;
+
+
+  
+}
+
+p {
+
+    width: 450px;
+    height: 38px;
+
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 160%;
+    color: #1F1249;
+
+
+
+}
+
+.btn {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 140%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 50px;
+    gap: 12px;
+
+    width: 450px;
+    height: 60px;
+
+    background: linear-gradient(113.87deg, #2663DF 14.81%, #758FF0 88.76%);
+    box-shadow: 0px 6px 18px #9CADF2;
+    border-radius: 10px;
+color: white;
+    
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+
+/*----------------------------media query   welcome style   -----------------------*/
+
+@media screen and (max-width:768px) {
+
+    .welcome {
+        /* Welcome Screen */
+
+
+        /* Auto layout */
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 40px 0px;
+        gap: 40px;
+
+        width: 375px;
+        height: 647px;
+
+        background: rgba(245, 247, 255, 0.85);
+        border-radius: 10px;
+
+        /* Inside auto layout */
+
+        flex: none;
+        order: 0;
+        align-self: stretch;
+        flex-grow: 1;
+    }
+
+    .welcome_iamge {
+
+        width: 315px;
+        height: 315px;
+
+        background-image: url(../image/e6e913c64abc73e5616fdac852e235c4.jpg);
+        background-position: center center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        border-radius: 10px;
+
+
+
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+
+    }
+
+    .welcome_caption {
+        /* Head & Subhead & CTAs */
+
+
+        /* Auto layout */
+
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 0px;
+        gap: 40px;
+
+        width: 315px;
+        height: 212px;
+
+
+        /* Inside auto layout */
+
+        flex: none;
+        order: 1;
+        flex-grow: 0;
+    }
+
+    .btn {
+        width: 315px;
+        height: 60px;
+    }
+
+    h1 {
+        /* Headline */
+         width: 315px;
+        height: 50px;
+        font-size: 42px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        color: #2D2D2D; }
+
+    p {
+        width: 315px;
+        height: 52px;
+        text-align: center;
+      
+    }
+}
+
+/*                             /------------    sign up style       -------------/ */
+/* Create Account Screen */
+.signUp {
+   /* Auto layout */
+margin: auto;
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 60px;
+gap: 60px;
+
+width: 1080px;
+height: 656px;
+
+background: rgba(245, 247, 255, 0.85);
+border-radius: 10px;
+
+   
+
+}
+
+
+/* Image Placeholder */
+.signUp_image {
+    width: 450px;
+    height: 536px;
+    background-image: url(../image/56f58c5bbae6320e1aa5d36445fd722b.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10px;
+}
+
+
+
+
+
+
+.signUp h1 {
+    width: 450px;
+    height: 50px;
+
+    font-family: ' Abdoullah Ashgar EL-kharef';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 42px;
+    line-height: 120%;
+    /* or 50px */
+
+    display: flex;
+    align-items: center;
+    text-transform: capitalize;
+
+    /* Onboarding background grey */
+
+    color: #2D2D2D;
+}
+
+
+
+/* Subhead */
+.signUp p {
+
+    width: 450px;
+    height: 76px;
+
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 160%;
+    /* or 38px */
+
+
+    /* light/purple-12 */
+
+    color: #1F1249;
+
+
+}
+
+
+
+/* Icon */
+.is_icon {
+
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 8px;
+    
+    width: 29px;
+    height: 20px;
+
+
+position: relative;
+  left: .5rem;
+  top: .5rem;
+
+   
+
+}
+
+/* Divider */
+.is_divider {
+    width: 1px;
+    height: 20px;
+
+    background-color: #DBE3FF;
+}
+
+i {
+    color: #9CADF2;
+}
+
+input::placeholder {
+    width: 369px;
+    height: 44px;
+    
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+    /* or 22px */
+
+    display: flex;
+    align-items: center;
+
+    /* Primary Colour - Dark Grey */
+
+    color: #3B3B3B;
+}
+
+
+.alert{
+  /* display: none; */
+   font-size: 13px;
+   height: 15px;
+   padding: 0;
+   margin: 0;
+}
+.form-group{
+   
+   /* padding:10px ; */
+   border: 1px solid #DBE3FF;
+   border-radius: 10px;
+
+}
+.myInput{
+  
+    display: flex;
+    justify-content: space-between;
+    
+}
+input{
+ width: 90% !important;
+}
+/* /************************ */
+
+input::placeholder {
+
+    width: 369px;
+    height: 44px;
+
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+    /* or 22px */
+
+    display: flex;
+    align-items: center;
+
+    /* Primary Colour - Dark Grey */
+
+    color: #3B3B3B;
+}
+
+
+
+/*------------------- media query sign up style  ---------------*/
+@media screen and (max-width:768px) {
+    .signUp {
+        display: flex;
+        flex-direction: column;
+        align-items:center;
+        justify-content:flex-start;
+      
+        padding: 40px 0px;
+        gap: 40px;
+        
+        width: 375px;
+        height: 931px;
+        
+
+
+
+
+    }
+
+    .signUp_image {
+
+        width: 315px;
+        height: 315px;
+
+    }
+
+
+
+    /* Head & Subhead & Typeform */
+    .signUp_caption {
+        
+   
+margin: auto; 
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+padding: 0px;
+gap: 16px;
+
+width: 315px;
+height: 106px;
+
+    }
+
+    .signUp h1 {
+
+       
+        width: 315px;
+        height: 38px;
+       
+        font-size: 32px;
+         padding-left: 20%;
+  
+    }
+
+
+
+    /* Subhead */
+    .signUp p {
+
+        width: 315px;
+        height: 52px;
+       font-size: 16px;
+       line-height: 160%;
+       text-align:center;
+       
+    }
+
+
+    /* /************************ */
+
+    input::placeholder {
+
+        width: 369px;
+        height: 44px;
+
+        font-family: 'Mulish';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 140%;
+        /* or 22px */
+
+        display: flex;
+        align-items: center;
+
+        /* Primary Colour - Dark Grey */
+
+        color: #3B3B3B;
+    }
+}
+
+
+
+/*                     ------------------------        logged in style      ----------------- */
+/* Forgot Password Screen */
+.login{
+    display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 60px;
+gap: 60px;
+margin: auto;
+width: 1080px;
+height: 576px;
+
+background: rgba(245, 247, 255, 0.85);
+border-radius: 10px;
+}
+.login_image{
+/* Image Placeholder */
+
+
+width: 450px;
+height: 456px;
+
+background-image:
+url(../image/ea2e1cc89fe6186afba2ac5e3a2eebdc.jpg);
+background-position: center center;
+background-size: cover;
+background-repeat: no-repeat;
+
+border-radius: 10px;
+
+
+
+
+
+}
+.login_caption{
+    display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 20px;
+
+width: 450px;
+height: 96px;
+
+}
+
+
+
+.login h1{
+    width: 450px;
+height: 50px;
+
+font-family: ' Abdoullah Ashgar EL-kharef';
+font-style: normal;
+font-weight: 400;
+font-size: 42px;
+line-height: 120%;
+/* or 50px */
+
+display: flex;
+align-items: center;
+text-transform: capitalize;
+
+/* Onboarding background grey */
+
+color: #2D2D2D;
+}
+.login p{
+    /* Subhead */
+
+
+width: 450px;
+height: 26px;
+
+font-family: 'Mulish';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 160%;
+/* identical to box height, or 26px */
+
+text-decoration-line: underline;
+
+/* light/purple-12 */
+
+color: #1F1249;
+}
+
+
+
+/*------------------- media query  logged in style---------------*/
+@media screen and (max-width:768px) {
+    .login{
+flex-direction: column;
+align-items: center;
+padding: 40px 0px;
+gap: 40px;
+
+width: 375px;
+height: 733px;
+
+background: rgba(245, 247, 255, 0.85);
+border-radius: 10px;
+
+
+    }
+    .login_image{
+    /* Image Placeholder */
+    width: 322px;
+    height: 315px;
+    
+ 
+  
+
+    
+    }
+    .login_caption{
+    
+width: 450px;
+height: 146px;
+margin: auto;
+text-align: center;
+    }
+    
+    
+    
+    .login h1{
+    width: 315px;
+    height: 38px;
+    font-size: 30px;
+  margin-left: 30px;
+
+   
+   
+
+    }
+.login p{
+        
+width: 315px;
+height: 26px;
+
+text-align: center;
+
+    }
+    
+}
